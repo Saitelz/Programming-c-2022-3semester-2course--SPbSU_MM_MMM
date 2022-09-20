@@ -4,14 +4,14 @@ using namespace std;
 
 struct Types
 {
-	bool x1;
-	char x2;
-	short x3;
+    bool x1;
+    char x2;
+    short x3;
     float x4;
-	int x5;
+    int x5;
     long x6;
-	long long x7;
-	double x8;
+    long long x7;
+    double x8;
 };
 
 int main(int argc, char* argv[])
@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
     cout << sizeof(long long) << endl;
     cout << sizeof(double) << endl;
 
-    cout << "size of struct: " << sizeof(Types) << endl;
+    cout << "Size of struct: " << sizeof(Types) << endl;
 
     int arr[8] = {1, 1, 2, 4, 4, 8, 8, 8};
 
